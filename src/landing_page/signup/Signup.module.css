@@ -1,0 +1,68 @@
+
+
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(143, 187, 204, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+.formContainer {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 10px; /* Increased for a smoother card shape */
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  text-align: center; /* Centers text inside */
+}
+
+.formContainer > h2 {
+  margin-block: 1rem;
+  padding-block: 0.6rem;
+  color: rgba(0, 212, 255, 1);
+}
+
+.formContainer > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  text-align: left;
+}
+
+.formContainer div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.formContainer input {
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 1px solid gray;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.formContainer input::placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.formContainer button {
+  background-color: rgba(0, 212, 255, 1);
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
